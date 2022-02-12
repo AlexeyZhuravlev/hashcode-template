@@ -19,6 +19,7 @@ using namespace std;
 struct MySolver : public Context {
     void Solve() {
         // Solution goes here
+        2+2;
     }
 };
 

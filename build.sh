@@ -1,7 +1,8 @@
 #!/bin/bash
 
-mkdir -p build
-cd build
+build_directory=build
+mkdir -p ${build_directory}
+cd ${build_directory}
 cmake ..
 
 if [ $# -ne 1 ]; then

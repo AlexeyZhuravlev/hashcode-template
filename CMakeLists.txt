@@ -6,9 +6,9 @@ cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-project(Google_Hash_Code_2020_Qualification)
+project(Google_Hash_Code)
 # Set the output folder where your program will be created
-set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/test)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/binaries)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
 
