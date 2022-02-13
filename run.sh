@@ -30,7 +30,7 @@ binary_name=$1
 test_name=$2
 
 if [[ -z $binary_name ]]; then
-	echo "Please srun.shpecify executable $1"
+	echo "Please specify executable $1"
 	exit 1
 fi
 
